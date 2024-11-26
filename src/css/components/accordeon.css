@@ -1,3 +1,22 @@
 /**
 * Accordeon
 */
+
+.accordeon {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+details {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    
+}
+
+details[open]{
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px black(0, 0, 0, 0.1);
+    
