@@ -5,7 +5,8 @@
 .accordeon {
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    gap: 10px;
+    margin-left: 0px;
 }
 
 details {
@@ -18,5 +19,11 @@ details {
 
 details[open]{
     background-color: whitesmoke;
-    box-shadow: 0 2px 5px black(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+details div {
+    min-width: 200px;
+    padding: 10px;
+}
     
